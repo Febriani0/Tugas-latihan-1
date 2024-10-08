@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan Diri</title>
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff8a65, #ffcc80);
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #ff7043;
+            padding: 10px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #e64a19;
+        }
+
+        /* Main Content */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            margin: 20px 0; /* Space between cards */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #ff7043;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #757575;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #ff7043;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e64a19;
+            .btn {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+    transform: scale(1.1);
+}
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Tentang Saya -->
+        <div class="card" id="about">
+            <h1>Tentang Saya</h1>
+            <p>Assalamualaikum wr wb.</p>
+            <p>Nama             :Febriani</p>
+            <p>Tempat/T.Lahir   :Tanjungbalai/04-04-2003</p>
+            <p>Alamat           :Medan,Setia budi</p>
+            <p>Profesi          :Mahasiswa & Staff biro akademik Institut Teknologi dan Bisnis   Indonesia</p>
+            <p>Hobi             :Traveling ke alam</p>
+            <p>Minat            :Saya mempunyai minat di bidang ilmu perkantoran yang berfokus di dunia pendidikan</p>
+             <p>Selamat datang di kampus saya: <strong><a href="https://itbi.ac.id" target="_blank" style="color: #ff7043;">ITBI</a></strong></p>
+        </div>
+
+         <h1>Kontak</h1>
+            <p>Anda dapat menghubungi saya melalui email di:</p>
+            <p><strong><a href="febriani151500@gmail.com" style="color: #ff7043;">febriani151500@gmail.com</a></strong></p>
+            <a href="febriani151500@gmail.com" class="btn">Kirim Email</a>
+            
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            <div class="social-icons">
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
